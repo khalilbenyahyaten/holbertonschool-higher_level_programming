@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-import easyprinter
+open(1, 'w').write("#pythoniscool\n")
+
