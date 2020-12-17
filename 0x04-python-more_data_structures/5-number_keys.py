@@ -1,4 +1,6 @@
 #!/usr/bin/python3
 def number_keys(a_dictionary):
-    x = a_dictionary.get('number')
-    return x
+    j = 0
+    for i in a_dictionary:
+        j += 1
+    return j
