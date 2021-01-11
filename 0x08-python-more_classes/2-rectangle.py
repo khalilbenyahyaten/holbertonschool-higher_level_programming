@@ -3,7 +3,7 @@
 
 
 class Rectangle:
-    """define rectangle class"""    
+    """define rectangle class"""
     def __init__(self, width=0, height=0):
         """instantation"""
         self.__width = width
@@ -45,7 +45,7 @@ class Rectangle:
 
     def perimeter(self):
         """perimeter of a rectangle"""
-        if self.__width = 0 or self.__height = 0:
+        if self.__width == 0 or self.__height == 0:
             return 0
         else:
             return (self.__width + self.__height) * 2
