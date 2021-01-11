@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """define a rectangle"""
 
+
 class Rectangle:
     """define a rectangle class"""
 
@@ -38,5 +39,3 @@ class Rectangle:
             raise ValueError('height must be >= 0')
         else:
             self.__height = value
-
-    
