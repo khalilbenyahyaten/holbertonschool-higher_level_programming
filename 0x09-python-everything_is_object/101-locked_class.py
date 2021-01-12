@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+"""module"""
 
 class LockedClass:
     """locked class that prevents the user from creating new instance attributes
