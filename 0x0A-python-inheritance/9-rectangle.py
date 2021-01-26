@@ -2,6 +2,7 @@
 """ full rectangle """
 BaseGeometry = __import__("8-rectangle").Rectangle
 
+
 class Rectangle(BaseGeometry):
     """ Rectangle class """
 
