@@ -1,3 +1,2 @@
---list table values
-
+-- list table values
 SELECT * FROM first_table;
