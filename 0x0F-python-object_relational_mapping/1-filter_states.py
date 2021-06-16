@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
-Module that lists states with names starts with N
-from the database hbtn_0e_0_usa
+list states
 """
 import MySQLdb
 import sys
@@ -28,4 +27,3 @@ def print_all_names():
 
 if __name__ == "__main__":
     print_all_names()
-    
